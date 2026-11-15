@@ -1,0 +1,17 @@
+Before a recruitment event, what gives two people a real reason to meet?
+
+Meet Robin: an operations specialist who wants to develop data skills. Harbor Services needs someone who can handle an incident, keep customers informed, and validate the data. Both are fictional.
+
+CommonGround gives each side a digital twin: a representative built from information its owner reviews. Here are Robin and Harbor in the actual local prototype.
+
+Robin's work example describes coordinating an incident and separating facts from assumptions. Harbor needs clear updates when the recovery time is unknown. That is shared ground. But data validation has no supplied example.
+
+The useful output is a question: Could you walk through a concrete example of data validation? Both sides can explore the evidence and whether the role supports Robin's learning goals. Missing evidence stays a question.
+
+In this successful local Gemini run, the twins also rehearse how to discuss an uncertain recovery time. This is hypothetical dialogue, not observed behaviour or a prediction of job success.
+
+The same pair now has a shared agenda. Robin and Harbor each choose whether to meet. These buttons simulate the two parties. A changed twin requires a fresh review and introduction.
+
+Judges can try the browser preview without a key. It uses fictional session data and no live model. The downloadable app adds live dialogue and saved evidence.
+
+Our ask to Espoo: one workshop with an event team, using fictional examples. Compare preparation effort and usefulness before planning a voluntary pilot with the necessary identity and privacy controls. Two twins. A clearer first conversation.

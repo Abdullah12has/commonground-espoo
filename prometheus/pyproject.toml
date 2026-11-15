@@ -1,0 +1,6 @@
+[project]
+name = "prometheus-hr-poc"
+version = "0.1.0"
+description = "Synthetic-data hiring evidence workspace"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1", "jsonschema>=4.23,<5", "httpx>=0.28,<1"]
