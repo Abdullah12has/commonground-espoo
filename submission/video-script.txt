@@ -1,33 +1,46 @@
-Espoo runs recruitment events so companies and talent can find each other.
-But the room still runs on CVs and job ads — and AI now writes both.
-Bad hires in Finland can cost tens of thousands of euros.
+[BEAT: OPEN · 0:00–0:11]
+Recruitment events still run on CVs and job ads.
+AI writes both now.
+Everyone sounds hireable.
+Nobody knows who to talk to.
+
+[BEAT: STAKES · 0:11–0:22]
+A bad hire in Finland can cost tens of thousands.
 An open role can sit for months.
-So every weak twelve-minute meeting is expensive — for companies, for talent, and for the city’s reputation.
+Every weak twelve minutes burns money, time, and trust.
 
-CommonGround makes those meetings worth having.
-
-Meet Robin — operations, moving into data.
-And Harbor Services — they need someone who can run an incident, keep customers informed, and check the data.
-Both are fictional. The stakes are not.
-
-Each side builds a twin from evidence they supply and approve.
-We run one real work scenario.
-Robin already has proof for the incident.
-Harbor also needs data validation — Robin has no example yet.
-
-So we don’t hand out a score.
-We put the gap on the agenda:
-“Could you walk through a concrete example of data validation?”
-That’s a meeting that saves both sides a wasted hour — and gives Robin a clear way to show up stronger.
-
-Both sides see the same agenda.
-They meet when both say yes — because both already see the value.
-Companies get signal, not noise.
-Talent get a conversation they can prepare for.
-Espoo gets a free service that feels like quality.
-
-Try it in the browser — no account, no key.
-Our ask: one workshop with Espoo’s event team, then one voluntary pilot.
-Measure prep time, usefulness for both sides, and follow-ups.
+[BEAT: PROMISE · 0:22–0:27]
 CommonGround.
-Two twins. One reason to meet — and a better outcome for everyone at the table.
+The first conversation worth showing up for.
+
+[BEAT: CAST · 0:27–0:39]
+Meet Robin. Operations, moving into data.
+Harbor needs someone to run an incident, update customers, and check the numbers.
+Fictional people. Real problem.
+
+[BEAT: HOW · 0:39–0:57]
+Each side builds a twin from evidence they approve.
+You run one piece of real work.
+What matches is common ground.
+What doesn’t match becomes the question.
+
+[BEAT: GAP · 0:57–1:14]
+Robin has the incident.
+Not the data check.
+The agenda isn’t a score.
+“Walk me through a data validation example.”
+
+[BEAT: VALUE · 1:14–1:30]
+Companies get signal, not noise.
+Talent walk in prepared.
+Espoo’s free events feel like quality.
+Companies come back.
+
+[BEAT: CTA · 1:30–1:38]
+Try it in the browser.
+No account. No key.
+One workshop with Espoo. Then a pilot.
+
+[BEAT: CLOSE · 1:38–1:44]
+CommonGround.
+Two twins. One reason to meet.

@@ -2,142 +2,90 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CommonGround — better first conversations</title>
-<meta name="description" content="Make every twelve minutes at Espoo recruitment events worth showing up for. Shared agendas for companies, talent, and the city.">
+<title>CommonGround — the first conversation worth showing up for</title>
+<meta name="description" content="AI writes both sides. Everyone sounds hireable. CommonGround turns approved evidence into a shared agenda for Espoo recruitment events.">
 <style>
-  :root {
-    --bg: #f7f5f0;
-    --ink: #1a1f24;
-    --muted: #5a646e;
-    --line: #d5cfc4;
-    --accent: #1f4b3a;
-    --btn: #1a1f24;
-    --card: #efeae2;
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 "IBM Plex Sans", "Segoe UI", sans-serif; }
-  main, nav { max-width: 980px; margin: auto; padding: 28px; }
-  nav { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--line); }
-  .brand { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 22px; letter-spacing: -0.5px; }
-  .tag { font-size: 12px; color: var(--muted); }
-  .hero { padding: 56px 0 28px; }
-  .kicker { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
-  h1 { font: normal clamp(38px, 5.5vw, 62px)/1.06 Georgia, serif; letter-spacing: -1.4px; margin: 16px 0 20px; max-width: 16ch; }
-  h2 { font: normal 28px/1.2 Georgia, serif; letter-spacing: -0.4px; margin: 0 0 20px; }
-  h3 { font-size: 16px; margin: 0 0 8px; }
-  p { max-width: 62ch; color: var(--muted); }
-  .lead { font-size: 18px; color: var(--ink); max-width: 52ch; }
-  .actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 26px 0 12px; }
-  .button { padding: 12px 18px; border-radius: 6px; background: var(--btn); color: #fff; text-decoration: none; font-weight: 600; }
-  .button.secondary { background: transparent; color: var(--ink); border: 1px solid var(--line); }
-  .caption { font-size: 13px; color: var(--muted); }
-  .stakes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 28px 0 8px; }
-  .stake { background: var(--card); padding: 16px 18px; border-radius: 8px; }
-  .stake strong { display: block; font-family: Georgia, serif; font-size: 22px; color: var(--accent); margin-bottom: 6px; }
-  .stake span { font-size: 13px; color: var(--muted); line-height: 1.4; display: block; }
-  .section { padding: 36px 0; border-top: 1px solid var(--line); }
-  .steps, .wins { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 32px; }
-  .wins { grid-template-columns: 1fr 1fr 1fr; }
-  .steps p, .wins p { font-size: 14px; margin: 0; }
-  .num { color: var(--accent); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
-  .note { border-left: 3px solid var(--accent); padding: 12px 16px; background: var(--card); font-size: 13px; color: var(--muted); }
-  .downloads { display: flex; gap: 22px; flex-wrap: wrap; }
-  .downloads a { color: var(--accent); }
-  footer { padding: 28px 0 50px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); }
-  @media (max-width: 700px) {
-    main, nav { padding: 20px; }
-    .stakes, .steps, .wins { grid-template-columns: 1fr; }
-    h1 { max-width: none; }
-  }
+  :root{--bg:#f7f5f0;--ink:#1a1f24;--muted:#5a646e;--line:#d5cfc4;--accent:#1f4b3a;--card:#efeae2}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "IBM Plex Sans","Segoe UI",sans-serif}
+  main,nav{max-width:920px;margin:auto;padding:28px}
+  nav{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:18px}
+  .brand{font-family:Georgia,serif;font-weight:700;font-size:22px;letter-spacing:-.4px}
+  .tag{font-size:12px;color:var(--muted)}
+  .hero{padding:64px 0 36px}
+  .kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+  h1{font:normal clamp(40px,6vw,64px)/1.05 Georgia,serif;letter-spacing:-1.6px;margin:18px 0 20px;max-width:14ch}
+  h2{font:normal 28px/1.15 Georgia,serif;letter-spacing:-.4px;margin:0 0 18px}
+  h3{margin:0 0 8px;font-size:15px}
+  p{color:var(--muted);max-width:40rem}
+  .lead{font-size:19px;color:var(--ink);max-width:34rem;line-height:1.45}
+  .actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 14px}
+  .button{padding:13px 18px;border-radius:6px;background:var(--ink);color:#fff;text-decoration:none;font-weight:600}
+  .button.secondary{background:transparent;color:var(--ink);border:1px solid var(--line)}
+  .caption{font-size:13px;color:var(--muted)}
+  .stakes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:36px}
+  .stake{background:var(--card);padding:18px;border-radius:8px}
+  .stake strong{display:block;font:700 22px/1.1 Georgia,serif;color:var(--accent);margin-bottom:8px}
+  .stake span{font-size:13px;color:var(--muted)}
+  .section{padding:40px 0;border-top:1px solid var(--line)}
+  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .grid3 p,.grid2 p{font-size:14px;margin:0}
+  .note{border-left:3px solid var(--accent);padding:12px 16px;background:var(--card);font-size:13px;color:var(--muted)}
+  .downloads{display:flex;gap:20px;flex-wrap:wrap}
+  .downloads a{color:var(--accent)}
+  footer{padding:28px 0 48px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
+  @media(max-width:700px){.stakes,.grid3,.grid2{grid-template-columns:1fr}h1{max-width:none}}
 </style>
-<nav>
-  <span class="brand">CommonGround</span>
-  <span class="tag">City of Espoo / Junction 2026</span>
-</nav>
+<nav><span class="brand">CommonGround</span><span class="tag">City of Espoo / Junction 2026</span></nav>
 <main>
   <section class="hero">
-    <span class="kicker">Rethinking Recruitment</span>
-    <h1>Make every twelve minutes worth showing up for.</h1>
-    <p class="lead">Espoo’s recruitment events still run on CVs and job ads — and AI writes both. CommonGround turns company needs and talent proof into a shared agenda before the room fills, so companies, talent, and the city all get signal instead of noise.</p>
+    <div class="kicker">Rethinking Recruitment</div>
+    <h1>The first conversation worth showing up for.</h1>
+    <p class="lead">AI writes the CV and the job ad. Everyone sounds hireable. CommonGround turns approved evidence into a shared agenda — signal for companies, preparation for talent, quality for Espoo.</p>
     <div class="actions">
       <a class="button" href="demo.html">Try the demo</a>
-      <a class="button secondary" href="CommonGround_Espoo_Pitch.pdf">Pitch deck</a>
+      <a class="button secondary" href="CommonGround_Espoo_Pitch.pdf">Pitch</a>
     </div>
     <p class="caption">Fictional people. Synthetic data. Not a hiring prediction.</p>
-    <div class="stakes" aria-label="Stakes">
-      <div class="stake"><strong>€10k–€100k</strong><span>Typical cost range of a bad hire in Finland</span></div>
-      <div class="stake"><strong>~124 days</strong><span>Average time to fill an open vacancy</span></div>
-      <div class="stake"><strong>200–1,000</strong><span>Jobseekers per Espoo TalentMatch-scale event — weak 1:1s multiply</span></div>
+    <div class="stakes">
+      <div class="stake"><strong>€10k–€100k</strong><span>Bad hire range in Finland</span></div>
+      <div class="stake"><strong>~124 days</strong><span>Average time to fill a role</span></div>
+      <div class="stake"><strong>Hundreds</strong><span>Seekers per event — weak 1:1s multiply</span></div>
     </div>
   </section>
-
   <section class="section">
     <h2>Who wins</h2>
-    <div class="wins">
-      <div>
-        <h3>Companies</h3>
-        <p>Clearer needs earlier. 1:1s arrive with shared evidence. The city pool looks like a pipeline, not charity.</p>
-      </div>
-      <div>
-        <h3>Talent</h3>
-        <p>Proof over polish. Career changers show transferable work. Walk in knowing what to discuss.</p>
-      </div>
-      <div>
-        <h3>Espoo</h3>
-        <p>Stronger signal before doors open. Useful conversations you can measure. A free service that feels high-quality.</p>
-      </div>
+    <div class="grid3">
+      <div><h3>Companies</h3><p>Signal, not noise. A city pool that looks like a pipeline.</p></div>
+      <div><h3>Talent</h3><p>Proof over polish. Walk in knowing what to discuss.</p></div>
+      <div><h3>Espoo</h3><p>Free events that feel like quality. Companies come back.</p></div>
     </div>
   </section>
-
   <section class="section">
     <h2>How it works</h2>
-    <div class="steps">
-      <div>
-        <div class="num">Step 1</div>
-        <h3>Build twins</h3>
-        <p>Each side supplies and approves their own evidence. Nothing scraped about the person.</p>
-      </div>
-      <div>
-        <div class="num">Step 2</div>
-        <h3>Run a scenario</h3>
-        <p>One concrete piece of work — an incident, a revenue check — not a generic job ad.</p>
-      </div>
-      <div>
-        <div class="num">Step 3</div>
-        <h3>Shared ground + gaps</h3>
-        <p>Shared proof is common ground. Gaps become questions that make the meeting useful.</p>
-      </div>
-      <div>
-        <div class="num">Step 4</div>
-        <h3>Both say yes</h3>
-        <p>Meet with an agenda both sides already value. “Not yet” means fix evidence or pick another role — still progress.</p>
-      </div>
+    <div class="grid2">
+      <div><h3>1 · Build twins</h3><p>Evidence each side supplies and approves.</p></div>
+      <div><h3>2 · Run real work</h3><p>One concrete scenario — not a generic job ad.</p></div>
+      <div><h3>3 · Gaps become questions</h3><p>Not scores. An agenda that makes twelve minutes pay off.</p></div>
+      <div><h3>4 · Both say yes</h3><p>Meet when both sides already see the value.</p></div>
     </div>
   </section>
-
   <section class="section">
-    <h2>Follow the demo</h2>
-    <p>Choose <strong>Harbor Services</strong> and <strong>Robin Lee</strong>. Run the incident. Find the missing data-validation evidence. Prepare an introduction. Opt in on both sides — that’s a twelve-minute slot that starts on the real gap.</p>
-    <p class="note">Browser demo: this session only, no AI calls, precomputed checks. Reload to reset. Stakes cited from Finnish recruitment practice (Avila), TEM/TE vacancy timing, and Espoo TalentMatch scale — not claimed product ROI.</p>
+    <h2>Try this path</h2>
+    <p>Harbor Services × Robin Lee → incident → missing data validation → introduction → both opt in.</p>
+    <p class="note">Browser demo: session-only, no AI calls. Stakes cited from Finnish recruitment practice — not claimed product ROI.</p>
   </section>
-
   <section class="section">
     <h2>Ask Espoo</h2>
-    <p>One workshop with the event team. Then one voluntary pilot. Measure preparation time, usefulness for <em>both</em> sides, and follow-ups. If those rise, the free event has a quality story companies return for.</p>
-    <div class="downloads" style="margin-top:22px">
+    <p>One workshop. Then a voluntary pilot. Measure prep time, usefulness for both sides, follow-ups.</p>
+    <div class="downloads" style="margin-top:20px">
       <a href="https://github.com/Abdullah12has/commonground-espoo">Source</a>
-      <a href="CommonGround_Source.zip">ZIP</a>
-      <a href="CommonGround_Espoo_Pitch.pdf">PDF</a>
-      <a href="CommonGround_Espoo_Pitch.pptx">PowerPoint</a>
-      <a href="CommonGround_Demo.mp4">Video</a>
+      <a href="CommonGround_Espoo_Pitch.pptx">Deck</a>
+      <a href="CommonGround_Demo_v2_silent.mp4">Video (silent cut)</a>
+      <a href="CommonGround_Demo.mp4">Video (legacy)</a>
     </div>
   </section>
-
-  <footer>
-    Two twins. One reason to meet. Value for company, talent, and city.
-    Adapted from the Microsoft Prometheus prototype with organiser-approved reuse.
-    <a href="https://hackjunction.app/participate/45/challenges/319">Official Espoo challenge</a>.
-    Synthetic data only — do not enter real CVs.
-  </footer>
+  <footer>Two twins. One reason to meet. · Synthetic data only.</footer>
 </main>
 </html>
