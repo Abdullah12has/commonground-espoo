@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CommonGround — two twins, one reason to meet</title>
+<meta name="description" content="When AI writes both sides, start with a better question. CommonGround prepares recruitment-event conversations for City of Espoo.">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --ink: #1a1f24;
+    --muted: #5a646e;
+    --line: #d5cfc4;
+    --accent: #1f4b3a;
+    --btn: #1a1f24;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 "IBM Plex Sans", "Segoe UI", sans-serif; }
+  main, nav { max-width: 980px; margin: auto; padding: 28px; }
+  nav { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--line); }
+  .brand { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 22px; letter-spacing: -0.5px; }
+  .tag { font-size: 12px; color: var(--muted); }
+  .hero { padding: 64px 0 40px; }
+  .kicker { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  h1 { font: normal clamp(40px, 6vw, 68px)/1.05 Georgia, serif; letter-spacing: -1.5px; margin: 18px 0 22px; max-width: 14ch; }
+  h2 { font: normal 30px/1.2 Georgia, serif; letter-spacing: -0.5px; margin: 0 0 22px; }
+  h3 { font-size: 16px; margin: 0 0 8px; }
+  p { max-width: 62ch; color: var(--muted); }
+  .lead { font-size: 18px; color: var(--ink); max-width: 48ch; }
+  .actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 28px 0 12px; }
+  .button { padding: 12px 18px; border-radius: 6px; background: var(--btn); color: #fff; text-decoration: none; font-weight: 600; }
+  .button.secondary { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  .caption { font-size: 13px; color: var(--muted); }
+  .section { padding: 40px 0; border-top: 1px solid var(--line); }
+  .steps { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 36px; }
+  .steps p { font-size: 14px; margin: 0; }
+  .num { color: var(--accent); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+  .note { border-left: 3px solid var(--accent); padding: 12px 16px; background: #efeae2; font-size: 13px; color: var(--muted); }
+  .downloads { display: flex; gap: 22px; flex-wrap: wrap; }
+  .downloads a { color: var(--accent); }
+  footer { padding: 28px 0 50px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); }
+  @media (max-width: 650px) {
+    main, nav { padding: 20px; }
+    .hero { padding-top: 36px; }
+    .steps { grid-template-columns: 1fr; gap: 18px; }
+    h1 { max-width: none; }
+  }
+</style>
+<nav>
+  <span class="brand">CommonGround</span>
+  <span class="tag">City of Espoo / Junction 2026</span>
+</nav>
+<main>
+  <section class="hero">
+    <span class="kicker">Rethinking Recruitment</span>
+    <h1>When AI writes both sides, start with a better question.</h1>
+    <p class="lead">CommonGround gives company and talent a shared work scenario before the event — so the meeting has an agenda, not two polished documents.</p>
+    <div class="actions">
+      <a class="button" href="demo.html">Try the demo</a>
+      <a class="button secondary" href="CommonGround_Espoo_Pitch.pdf">Pitch deck</a>
+    </div>
+    <p class="caption">Fictional people. Synthetic data. Not a hiring prediction.</p>
+  </section>
+
+  <section class="section">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div>
+        <div class="num">Step 1</div>
+        <h3>Build twins</h3>
+        <p>Each side supplies and approves their own evidence. Nothing scraped about the person.</p>
+      </div>
+      <div>
+        <div class="num">Step 2</div>
+        <h3>Run a scenario</h3>
+        <p>One concrete piece of work — an incident, a revenue check — not a generic job ad.</p>
+      </div>
+      <div>
+        <div class="num">Step 3</div>
+        <h3>See the gap</h3>
+        <p>Shared proof is common ground. Missing proof becomes a question. No score. No silent reject.</p>
+      </div>
+      <div>
+        <div class="num">Step 4</div>
+        <h3>Both say yes</h3>
+        <p>Mutual opt-in unlocks the meeting agenda. If a twin changes, introductions need a fresh yes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Follow the demo</h2>
+    <p>Choose <strong>Harbor Services</strong> and <strong>Robin Lee</strong>. Run the incident. Find the missing data-validation evidence. Prepare an introduction. Opt in on both sides.</p>
+    <p class="note">Browser demo: this session only, no AI calls, precomputed checks. Reload to reset. Local app adds live dialogue and saved receipts. Consent is simulated.</p>
+  </section>
+
+  <section class="section">
+    <h2>Ask Espoo</h2>
+    <p>One workshop with the event team. Then one voluntary pilot once identity controls are ready. Measure preparation time, usefulness for both sides, and follow-ups.</p>
+    <div class="downloads" style="margin-top:22px">
+      <a href="https://github.com/Abdullah12has/commonground-espoo">Source</a>
+      <a href="CommonGround_Source.zip">ZIP</a>
+      <a href="CommonGround_Espoo_Pitch.pdf">PDF</a>
+      <a href="CommonGround_Espoo_Pitch.pptx">PowerPoint</a>
+      <a href="CommonGround_Demo.mp4">Video</a>
+    </div>
+  </section>
+
+  <footer>
+    Two twins. One reason to meet.
+    Adapted from the Microsoft Prometheus prototype with organiser-approved reuse.
+    <a href="https://hackjunction.app/participate/45/challenges/319">Official Espoo challenge</a>.
+    Synthetic data only — do not enter real CVs.
+  </footer>
+</main>
+</html>
