@@ -1,17 +1,46 @@
-Before a recruitment event, what gives two people a real reason to meet?
+[BEAT: OPEN · 0:00–0:11]
+Recruitment events still run on CVs and job ads.
+AI writes both now.
+Everyone sounds hireable.
+Nobody knows who to talk to.
 
-Meet Robin: an operations specialist who wants to develop data skills. Harbor Services needs someone who can handle an incident, keep customers informed, and validate the data. Both are fictional.
+[BEAT: STAKES · 0:11–0:22]
+A bad hire in Finland can cost tens of thousands.
+An open role can sit for months.
+Every weak twelve minutes burns money, time, and trust.
 
-CommonGround gives each side a digital twin: a representative built from information its owner reviews. Here are Robin and Harbor in the actual local prototype.
+[BEAT: PROMISE · 0:22–0:27]
+CommonGround.
+The first conversation worth showing up for.
 
-Robin's work example describes coordinating an incident and separating facts from assumptions. Harbor needs clear updates when the recovery time is unknown. That is shared ground. But data validation has no supplied example.
+[BEAT: CAST · 0:27–0:39]
+Meet Robin. Operations, moving into data.
+Harbor needs someone to run an incident, update customers, and check the numbers.
+Fictional people. Real problem.
 
-The useful output is a question: Could you walk through a concrete example of data validation? Both sides can explore the evidence and whether the role supports Robin's learning goals. Missing evidence stays a question.
+[BEAT: HOW · 0:39–0:57]
+Each side builds a twin from evidence they approve.
+You run one piece of real work.
+What matches is common ground.
+What doesn’t match becomes the question.
 
-In this successful local Gemini run, the twins also rehearse how to discuss an uncertain recovery time. This is hypothetical dialogue, not observed behaviour or a prediction of job success.
+[BEAT: GAP · 0:57–1:14]
+Robin has the incident.
+Not the data check.
+The agenda isn’t a score.
+“Walk me through a data validation example.”
 
-The same pair now has a shared agenda. Robin and Harbor each choose whether to meet. These buttons simulate the two parties. A changed twin requires a fresh review and introduction.
+[BEAT: VALUE · 1:14–1:30]
+Companies get signal, not noise.
+Talent walk in prepared.
+Espoo’s free events feel like quality.
+Companies come back.
 
-Judges can try the browser preview without a key. It uses fictional session data and no live model. The downloadable app adds live dialogue and saved evidence.
+[BEAT: CTA · 1:30–1:38]
+Try it in the browser.
+No account. No key.
+One workshop with Espoo. Then a pilot.
 
-Our ask to Espoo: one workshop with an event team, using fictional examples. Compare preparation effort and usefulness before planning a voluntary pilot with the necessary identity and privacy controls. Two twins. A clearer first conversation.
+[BEAT: CLOSE · 1:38–1:44]
+CommonGround.
+Two twins. One reason to meet.

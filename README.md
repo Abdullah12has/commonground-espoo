@@ -1,8 +1,8 @@
 # CommonGround
 
-Company and people digital twins prepare better conversations at recruitment events.
+When AI writes both sides, start with a better question.
 
-Built for the City of Espoo Junction challenge. A participant chooses a company, reviews the evidence represented by each twin and explores an explicit work-scenario assumption. The result shows shared evidence, uncertainty and a meeting agenda. Both sides must opt in before the demo records meeting feedback.
+Built for the City of Espoo Junction challenge (**Rethinking Recruitment**). CommonGround prepares the first conversation at a recruitment event: each side builds a twin from evidence they supply and approve, runs one concrete work scenario, and turns shared proof and gaps into a meeting agenda. Both sides must say yes. No ranking. No silent rejection.
 
 ## Run locally
 
