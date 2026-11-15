@@ -1,27 +1,33 @@
-When AI writes the CV and the job ad, both sides sound fine.
-Espoo’s recruitment events still need something better than polished paperwork.
-They need a real reason for two people to meet.
+Espoo runs recruitment events so companies and talent can find each other.
+But the room still runs on CVs and job ads — and AI now writes both.
+Bad hires in Finland can cost tens of thousands of euros.
+An open role can sit for months.
+So every weak twelve-minute meeting is expensive — for companies, for talent, and for the city’s reputation.
+
+CommonGround makes those meetings worth having.
 
 Meet Robin — operations, moving into data.
 And Harbor Services — they need someone who can run an incident, keep customers informed, and check the data.
-Both are fictional. The product is not.
+Both are fictional. The stakes are not.
 
-Each side gets a twin: a short profile built only from what its owner supplies and approves.
-We run them on one concrete scenario — a service disruption.
-Robin has proof for the incident work.
-Harbor also needs data validation. Robin has no example for that yet.
+Each side builds a twin from evidence they supply and approve.
+We run one real work scenario.
+Robin already has proof for the incident.
+Harbor also needs data validation — Robin has no example yet.
 
-So CommonGround does not give a score.
-It puts a question on the agenda:
+So we don’t hand out a score.
+We put the gap on the agenda:
 “Could you walk through a concrete example of data validation?”
-Missing proof isn’t a fail. It’s the first question.
+That’s a meeting that saves both sides a wasted hour — and gives Robin a clear way to show up stronger.
 
 Both sides see the same agenda.
-The meeting happens only if both say yes.
-If either twin changes, the introduction has to be approved again.
-No ranking. No silent rejection. People choose.
+They meet when both say yes — because both already see the value.
+Companies get signal, not noise.
+Talent get a conversation they can prepare for.
+Espoo gets a free service that feels like quality.
 
 Try it in the browser — no account, no key.
-Our ask to Espoo: one workshop with an event team, then one voluntary pilot.
+Our ask: one workshop with Espoo’s event team, then one voluntary pilot.
+Measure prep time, usefulness for both sides, and follow-ups.
 CommonGround.
-Two twins. One reason to meet.
+Two twins. One reason to meet — and a better outcome for everyone at the table.

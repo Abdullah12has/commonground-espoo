@@ -1,27 +1,27 @@
 # CommonGround
 
 ## Punchline
-When AI writes both sides, start with a better question. Two twins. One reason to meet.
+Make every twelve minutes at Espoo’s recruitment events worth showing up for. Two twins. One reason to meet — value for company, talent, and city.
 
 ## Description
-Espoo’s recruitment events still run on CVs and job ads. AI now writes both, so the paperwork starts to agree while people still don’t. Companies send vague needs late. Talent struggle to show what they can actually do. The room fills with noise.
+Espoo’s matchmaking events still run on CVs and job ads. AI now writes both, so paperwork starts to agree while people still don’t. Companies send vague needs late. Talent struggle to show real capability. Recruiters drown in irrelevant approaches. The city’s free pool gets doubted.
 
-CommonGround prepares the first conversation instead of ranking candidates.
+That noise is expensive. Bad hires in Finland often cost €10,000–€100,000. Open vacancies take on the order of 124 days to fill. TalentMatch-scale events bring hundreds of seekers into a room where every weak 1:1 multiplies. Specialist headhunt fees often sit in the €8k–€12k band — a free city event must feel worth attending.
 
-1. Each company and each person builds a short twin from evidence they supply and approve — nothing scraped about the person.
-2. Before the event, pick a pair and run one concrete work scenario.
-3. Shared proof becomes common ground. Missing proof becomes meeting questions — not scores, not rejections.
-4. Both sides say yes, or there is no meeting. Agenda in hand.
+CommonGround prepares the first conversation instead of ranking people:
 
-The synthetic demo follows Robin (operations → data) and Harbor Services (incident lead). Robin has incident evidence; data validation is missing, so it becomes the first question on the agenda. Mutual opt-in is required. Editing a twin invalidates old introductions.
+1. Each side builds a twin from evidence they supply and approve.
+2. Run one concrete work scenario.
+3. Shared proof becomes common ground; gaps become agenda questions that make the meeting useful.
+4. Both say yes when both already see value — meet with that agenda. “Not yet” means fix evidence or pick another role, not a black-box reject.
 
-Browser demo: session-only, no model calls, precomputed checks. Local app: SQL scenario checks, receipts, optional live dialogue. No candidate leaderboard, no automated hiring decision. Evidence coverage counts references present; it does not predict job success.
+Positive-sum: companies get signal and a believable city pipeline; talent get proof-over-polish conversations they can prepare for; Espoo gets measurable useful meetings and a free service that feels high-quality.
 
-Ask Espoo: one workshop with an event team using fictional examples, then one voluntary pilot after identity and privacy controls. Measure preparation time, usefulness for both sides, and follow-ups. No measured impact claimed yet.
+Synthetic demo (Robin × Harbor). No automated hiring decisions. Browser demo needs no key. Ask: one organiser workshop, then a voluntary pilot measuring prep time, bilateral usefulness, and follow-ups. Stakes are cited from Finnish recruitment practice — not claimed product ROI.
 
 ## Submission assets
-- Pitch: `CommonGround_Espoo_Pitch.pptx` (+ PDF export)
-- Video script: `video-script.txt` (record new VO)
-- Site rewrite: `site/index.html`, `site/transcript.html`
+- Pitch: `CommonGround_Espoo_Pitch.pptx`
+- Voiceover: `video-script.txt`
+- Site: `site/index.html`
 - Source: https://github.com/Abdullah12has/commonground-espoo
-- Live demo: https://commonground-espoo-junction-2026.oaken-trail-6302.chatgpt.site/demo
+- Demo: https://commonground-espoo-junction-2026.oaken-trail-6302.chatgpt.site/demo
